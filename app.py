@@ -77,8 +77,19 @@ textarea::placeholder {{
 """, unsafe_allow_html=True)
 
 # ---------------- HEADER ---------------- #
-st.markdown('<div class="title">💻 AI Code Explainer</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Understand code like a pro 🚀</div>', unsafe_allow_html=True)
+st.set_page_config(page_title="DECODR", layout="wide")
+
+st.markdown("""
+<h1 style='text-align:center; font-size:3rem;
+background: linear-gradient(90deg, #38bdf8, #6366f1);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;'>
+⚡ DECODR
+</h1>
+<p style='text-align:center; font-size:1.2rem; opacity:0.8;'>
+Decode any code. Instantly.
+</p>
+""", unsafe_allow_html=True)
 
 # ---------------- INPUT ---------------- #
 st.markdown('<div class="card">', unsafe_allow_html=True)
